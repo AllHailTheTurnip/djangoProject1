@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'AutobusBold';
+    src: url("Autobusbold-1ynL.ttf");
+}
+
+a:visited
+{
+    color: grey;
+}
+
+body
+{
+    background-color: black;
+    font-family: AutobusBold, serif;
+    color: white;
+    text-align: center;
+}
+
+h1
+{
+    font-size: 2.5vw;
+}
+
+h2
+{
+    font-size: 2vw;
+}
+
+/* The primary datafield. */
+div
+{
+    background-color: rgba(255, 255, 255, 0.45);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    width: 25vw;
+    border-radius: 25px;
+    border-width: 10px;
+    border-color: white;
+    border-style: solid;
+    color: black;
+}
+
+textarea
+{
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 5%;
+}

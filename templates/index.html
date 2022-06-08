@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Void Portal</title>
+    {% load static %}
+    <link href="{% static 'GeneralStyle.css' %}" rel="stylesheet">
+</head>
+<body>
+<h1>
+    Speak your mind.
+</h1>
+<h2>
+    No one will hear you anyway.
+</h2>
+
+<!-- Primary datafield. -->
+<div>
+    <form action="" method="POST">
+        {% csrf_token %}
+        <textarea name="message" id="message" rows="6" cols="50"></textarea><br>
+        <button type="submit" >Cry Out</button>
+    </form>
+
+    <p>Posts are permanently saved to a database, but are never read from.</p>
+</div>
+</body>
+<footer>
+    <p style="position: absolute; bottom: 0px; color: gray">Created by Caleb Clanton.</p>
+</footer>
+</html>
